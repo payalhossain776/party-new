@@ -1,34 +1,54 @@
 body{
-    font-size:'Open Sans', sans-serif;
+    /* font-size:'Open Sans', sans-serif; */
 }
 /* banner section style */
 .banner-section{ 
+    /* border: 3px solid rgb(0, 0, 0); */
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    background-image: url("Banner Image.png");
+    background-image: url("img/Banner\ Image.png");
     background-repeat: no-repeat;
     border-radius: 16px;
-    margin:50px 240px 0px 240px;
+    margin:0px 300px 0px 300px;
+    padding: 0px 0px 0px 0px;
 
 }
 .banner{
     width: 1320px;
     height: 600px;
-    border: 3px solid darkgoldenrod;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    /* justify-content: center; */
 }
-.banner h2{
+.banner h3{
     color: #FFF;
     text-align: center;
     font-size: 32px;
     font-weight: 400;
-    margin-top: 190px;
-    padding: 0px;
+    /* margin-top: 190px; */
+    /* padding: 0px; */
 }
-.banner h1{
+.banner h2{
     color: #FFF;
     text-align: center;
     font-size: 72px;
     font-weight: 900;
-    margin-top:0px;
-    padding: 0px;
+    /* margin-top:0px; */
+    /* padding: 0px; */
 }
 /* banner section end */
+.banner-cintainer h4{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 700;
+    border: 3px solid firebrick;
+}
+.took{
+    color: #F00;
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+}
